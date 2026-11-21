@@ -1,0 +1,110 @@
+[
+ {
+  "student": "What does the feed-forward layer do in a transformer?",
+  "reply": "Take the transformer block: layer normalisation, attention, layer normalisation, a shortcut connection, and another layer normalisation. The attention layer already combines information from relevant tokens. What's left for the feed-forward layer to do?",
+  "mode": "hybrid",
+  "in_scope": true,
+  "sources": [
+   {
+    "week": 4,
+    "pages": [
+     18
+    ],
+    "score": 0.52
+   },
+   {
+    "week": 4,
+    "pages": [
+     29
+    ],
+    "score": 0.47
+   }
+  ],
+  "retrieval_s": 0.201,
+  "generation_s": 6.1,
+  "prompt_tokens": 337,
+  "words": 33,
+  "questions": 1
+ },
+ {
+  "student": "I think it decides which tokens to pay attention to.",
+  "reply": "That's the job of the attention layer. The feed-forward layer comes after attention, so what does it need to process once the attention layer has already done its work?",
+  "mode": "hybrid",
+  "in_scope": true,
+  "sources": [
+   {
+    "week": 4,
+    "pages": [
+     18
+    ],
+    "score": 0.57
+   },
+   {
+    "week": 4,
+    "pages": [
+     39
+    ],
+    "score": 0.56
+   }
+  ],
+  "retrieval_s": 0.076,
+  "generation_s": 8.75,
+  "prompt_tokens": 401,
+  "words": 29,
+  "questions": 1
+ },
+ {
+  "student": "I don't know.",
+  "reply": "That's okay. Let's look at a simpler case. Imagine a model that only had attention, and it got the tokens \"the\", \"cat\", \"sat\", \"on\", \"the\", \"mat\". It paid attention to \"cat\" and \"mat\", so what would it need to do next to make a prediction?",
+  "mode": "hybrid",
+  "in_scope": true,
+  "sources": [
+   {
+    "week": 4,
+    "pages": [
+     18
+    ],
+    "score": 0.51
+   },
+   {
+    "week": 4,
+    "pages": [
+     29
+    ],
+    "score": 0.47
+   }
+  ],
+  "retrieval_s": 0.027,
+  "generation_s": 14.44,
+  "prompt_tokens": 451,
+  "words": 45,
+  "questions": 1
+ },
+ {
+  "student": "So attention mixes information between tokens, and the feed-forward layer processes each token's vector on its own?",
+  "reply": "Exactly. The attention layer helps tokens gather context from each other, and the feed-forward layer transforms and refines that information. Which part of the feed-forward layer would you like to learn more about?",
+  "mode": "hybrid",
+  "in_scope": true,
+  "sources": [
+   {
+    "week": 4,
+    "pages": [
+     16
+    ],
+    "score": 0.67
+   },
+   {
+    "week": 4,
+    "pages": [
+     18
+    ],
+    "score": 0.66
+   }
+  ],
+  "retrieval_s": 0.056,
+  "generation_s": 7.41,
+  "prompt_tokens": 563,
+  "words": 33,
+  "questions": 1
+ }
+]

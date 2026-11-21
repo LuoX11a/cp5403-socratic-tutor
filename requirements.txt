@@ -1,0 +1,11 @@
+# Tested on Google Colab (T4 GPU), Nov 2026
+transformers        # 5.x used; record exact version from run_info.json
+peft
+bitsandbytes
+accelerate
+sentence-transformers
+faiss-cpu
+pymupdf
+pandas
+matplotlib
+torch

@@ -1,0 +1,110 @@
+[
+ {
+  "student": "What does the feed-forward layer do in a transformer?",
+  "reply": "Imagine a transformer that can attend to the words \"the cat sat on the mat\". Attention lets it focus on \"sat\" when predicting \"mat\". But what does the transformer still need to do with the words \"the cat sat on the mat\"?",
+  "mode": "hybrid",
+  "in_scope": true,
+  "sources": [
+   {
+    "week": 4,
+    "pages": [
+     18
+    ],
+    "score": 0.52
+   },
+   {
+    "week": 4,
+    "pages": [
+     21
+    ],
+    "score": 0.49
+   }
+  ],
+  "retrieval_s": 0.236,
+  "generation_s": 7.11,
+  "prompt_tokens": 344,
+  "words": 42,
+  "questions": 1
+ },
+ {
+  "student": "I think it decides which tokens to pay attention to.",
+  "reply": "That's attention, but the transformer still needs to turn \"the cat sat on the mat\" into a prediction. It has a final vector for \"sat\", but what does it need to turn that into a prediction?",
+  "mode": "hybrid",
+  "in_scope": true,
+  "sources": [
+   {
+    "week": 4,
+    "pages": [
+     18
+    ],
+    "score": 0.57
+   },
+   {
+    "week": 4,
+    "pages": [
+     39
+    ],
+    "score": 0.56
+   }
+  ],
+  "retrieval_s": 0.038,
+  "generation_s": 4.65,
+  "prompt_tokens": 407,
+  "words": 36,
+  "questions": 1
+ },
+ {
+  "student": "I don't know.",
+  "reply": "That's okay. Let's take it step by step. The transformer has a vector for \"sat\", and it needs to turn that into a prediction. Which layer in a transformer is designed to process vectors like that?",
+  "mode": "hybrid",
+  "in_scope": true,
+  "sources": [
+   {
+    "week": 4,
+    "pages": [
+     18
+    ],
+    "score": 0.51
+   },
+   {
+    "week": 4,
+    "pages": [
+     21
+    ],
+    "score": 0.48
+   }
+  ],
+  "retrieval_s": 0.02,
+  "generation_s": 5.31,
+  "prompt_tokens": 475,
+  "words": 36,
+  "questions": 1
+ },
+ {
+  "student": "So attention mixes information between tokens, and the feed-forward layer processes each token's vector on its own?",
+  "reply": "Exactly. Attention lets a transformer focus on relevant tokens, and the feed-forward layer lets it turn those tokens into a prediction. Which layer would you want to change if you wanted a transformer to only focus on the first token?",
+  "mode": "hybrid",
+  "in_scope": true,
+  "sources": [
+   {
+    "week": 4,
+    "pages": [
+     16
+    ],
+    "score": 0.67
+   },
+   {
+    "week": 4,
+    "pages": [
+     18
+    ],
+    "score": 0.66
+   }
+  ],
+  "retrieval_s": 0.042,
+  "generation_s": 5.35,
+  "prompt_tokens": 558,
+  "words": 40,
+  "questions": 1
+ }
+]

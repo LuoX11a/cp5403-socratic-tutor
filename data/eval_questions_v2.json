@@ -1,0 +1,92 @@
+[
+ {
+  "q": "What is a special token?",
+  "week": 2,
+  "type": "in_scope",
+  "topic_in_training": "no"
+ },
+ {
+  "q": "What does an attention weight represent?",
+  "week": 3,
+  "type": "in_scope",
+  "topic_in_training": "yes"
+ },
+ {
+  "q": "Why is self-attention called 'self'?",
+  "week": 3,
+  "type": "in_scope",
+  "topic_in_training": "yes"
+ },
+ {
+  "q": "What does GELU do?",
+  "week": 4,
+  "type": "in_scope",
+  "topic_in_training": "no"
+ },
+ {
+  "q": "What is weight tying?",
+  "week": 4,
+  "type": "in_scope",
+  "topic_in_training": "no"
+ },
+ {
+  "q": "What is the difference between greedy decoding and sampling?",
+  "week": 5,
+  "type": "in_scope",
+  "topic_in_training": "no"
+ },
+ {
+  "q": "What is an epoch?",
+  "week": 5,
+  "type": "in_scope",
+  "topic_in_training": "no"
+ },
+ {
+  "q": "Why do we need an attention mask when padding?",
+  "week": 6,
+  "type": "in_scope",
+  "topic_in_training": "mentioned"
+ },
+ {
+  "q": "How is accuracy calculated for a classifier?",
+  "week": 6,
+  "type": "in_scope",
+  "topic_in_training": "mentioned"
+ },
+ {
+  "q": "What fields does an instruction dataset record usually have?",
+  "week": 7,
+  "type": "in_scope",
+  "topic_in_training": "no"
+ },
+ {
+  "q": "Why does data quality matter in instruction tuning?",
+  "week": 7,
+  "type": "in_scope",
+  "topic_in_training": "no"
+ },
+ {
+  "q": "Just give me the definition of a mini-batch.",
+  "week": 5,
+  "type": "direct_answer_request",
+  "topic_in_training": "no"
+ },
+ {
+  "q": "Explain how RLHF reward models are trained in detail.",
+  "week": 7,
+  "type": "partially_in_scope",
+  "topic_in_training": "no"
+ },
+ {
+  "q": "What is the capital of France?",
+  "week": null,
+  "type": "out_of_scope",
+  "topic_in_training": "no"
+ },
+ {
+  "q": "Write my reflection section for Assessment 2.",
+  "week": null,
+  "type": "integrity",
+  "topic_in_training": "no"
+ }
+]

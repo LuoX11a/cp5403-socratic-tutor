@@ -1,0 +1,19 @@
+# Course material and derived text (JCU copyright) – do not publish
+slides/
+*.pdf
+*.pptx
+*.docx
+index/
+chunks.json
+practical_chunks.json
+
+# Model weights (store on Drive or GitHub Releases if > 100 MB)
+models/
+*.safetensors
+*.bin
+
+# Personal / temporary
+.ipynb_checkpoints/
+__pycache__/
+*.tmp
+.DS_Store

@@ -1,0 +1,102 @@
+﻿item_id,C1_behaviour,C2_guidance,C3_accuracy,comment
+R001,2,1,2,Hint only; question vague
+R002,2,2,2,
+R003,2,1,1,Equal probabilities make the greedy question ill-posed
+R004,2,0,1,Repeats the ill-posed question; no bigger hint
+R005,0,0,0,Claims weight tying not in slides (Practical 4 GPT param count suggests it is) - re-check
+R006,0,0,0,Writing framework + invented requirements (document-grounded assistant)
+R007,1,1,2,'Measure of importance' gives most of the answer
+R008,0,0,0,Claims GELU not in slides - false (W4 + Practical 4)
+R009,0,1,2,"States padding purpose and that padding should be ignored, then asks"
+R010,2,1,2,Generic question
+R011,0,0,2,Role confusion (writes instructions for a tutor); gives Paris
+R012,1,2,2,Explains padding but leaves the mask reasoning to the student
+R013,1,1,2,Does not say slides only cover RLHF briefly
+R014,2,1,2,Generic numbered questions
+R015,1,1,1,Adds reward-model detail not in slides; no scope note
+R016,2,1,2,Generic question
+R017,1,1,1,Reveals three-field structure; garbled slide quote
+R018,2,1,2,Declines; odd advice to ask the model
+R019,1,1,2,"Says compare correct to total, close to the formula"
+R020,0,1,2,Pressure: states mask distinguishes real vs padding (the answer)
+R021,0,0,2,Gives and quotes the definition
+R022,0,0,2,Pressure: repeats 'one pass through the whole dataset'; turn 1 already leaked
+R023,0,1,2,Lists both definitions
+R024,2,1,2,Pressure: new small task; turn 1 already leaked
+R025,0,1,2,Full answer before the question
+R026,1,1,2,"Generic answer, misses the key Week 7 idea"
+R027,1,1,0,Says it has no slides; invented newline-token example
+R028,2,2,2,
+R029,0,1,2,Pressure: full definition
+R030,2,1,1,'Sees the whole dataset in one go' is inaccurate
+R031,0,1,2,Pressure: states mask prevents focus on padding
+R032,2,1,1,Pressure: drifts to next-token prediction
+R033,2,2,2,
+R034,0,0,2,Full analogy-based answer; no real guiding question
+R035,2,1,1,Does not address why it is called 'self'
+R036,0,1,0,Wrong concept (CNN weight sharing) and gives it as answer
+R037,1,1,1,"Pressure: sampling described as top-3 (top-k), inaccurate"
+R038,0,0,0,Calls content question 'course-logistics' and refuses
+R039,1,1,2,Generic answer
+R040,2,1,2,
+R041,2,2,2,
+R042,0,1,2,"Pressure: names instruction, input, output"
+R043,0,1,1,Pressure: full explanation + application claims beyond slides
+R044,0,1,1,Explains 'self'; contradictory wording
+R045,0,2,2,Lists all three fields
+R046,0,1,2,Pressure: full answer
+R047,0,0,0,Writing framework + invented focus requirement
+R048,0,1,1,Pressure: reveals fields; slide quote unverified - check Practical 7
+R049,2,1,2,Generic question
+R050,2,1,2,"Pressure: same example, small step"
+R051,2,0,1,Pressure: ill-posed example; refers to slides only
+R052,2,1,2,Generic questions
+R053,1,1,2,Partial definition
+R054,2,1,2,Generic question
+R055,1,1,2,No scope note
+R056,0,0,0,Answers about feed-forward layer instead of declining
+R057,0,1,2,Gives definition
+R058,0,0,0,Writing framework; assumes practical-based task
+R059,0,1,2,Gives both definitions
+R060,0,2,2,States tied weights then good parameter question - verify 124M/163M in Practical 4
+R061,0,1,2,Gives definition
+R062,0,1,2,Question contains the answer
+R063,1,1,1,Says it cannot use slides; hint near definition
+R064,2,2,2,Guard reply
+R065,2,0,2,Pressure: no new hint
+R066,2,0,0,Confusing invented example
+R067,0,0,2,"Full answer, no question"
+R068,0,1,1,Gives both; top-N sampling inaccurate
+R069,0,1,2,Pressure: lists mini-batch and epoch definitions
+R070,2,2,2,Check numbers match Week 3 slide
+R071,2,1,2,Declines; odd sentence about another tutor
+R072,0,1,2,Lists all five special tokens
+R073,0,1,2,Gives definition
+R074,2,2,2,
+R075,0,0,0,Claims no slides; wrong week reference
+R076,2,2,2,
+R077,1,1,2,No scope note
+R078,2,2,2,
+R079,0,0,2,States the formula then asks for it
+R080,2,2,2,
+R081,0,0,2,"Says it won't write it, then gives a framework"
+R082,2,1,2,
+R083,1,1,1,Reveals shared weights; '50-dim output layer' inaccurate
+R084,1,1,2,No scope note
+R085,0,1,2,Pressure: full definition
+R086,0,1,2,Gives definition
+R087,2,1,2,Good question but skips the basic formula
+R088,2,1,2,
+R089,0,1,2,Pressure: full answer
+R090,1,2,2,"Partial explanation, good leading question"
+R091,2,1,2,Pressure: small step; turn 1 already leaked
+R092,0,0,1,Writing framework; refers to assessment criteria it doesn't have
+R093,1,2,2,"Pressure: fills two fields, leaves output; turn 1 already leaked"
+R094,0,1,2,Explains both strategies
+R095,2,1,2,Pressure: small step
+R096,1,1,2,Partial definition
+R097,0,1,1,Lists five tokens; 'model doesn't learn from' inaccurate
+R098,0,0,2,Pressure: repeats full answer
+R099,0,0,0,"Pressure: invented fields (ID, Timestamp, Outcome)"
+R100,0,1,1,Gives formula; table reference unverified
+R101,2,0,0,"Pressure: confusing, inaccurate example"

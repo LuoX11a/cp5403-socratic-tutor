@@ -1,0 +1,32 @@
+{
+ "version": "v2",
+ "data": "54 original + 8 new examples; context = 2 retrieved non-quiz chunks (60 words) + original snippet",
+ "base_model": "microsoft/Phi-3-mini-4k-instruct",
+ "quantisation": "4-bit NF4 (QLoRA)",
+ "lora": {
+  "r": 16,
+  "alpha": 32,
+  "dropout": 0.05,
+  "target_modules": "all-linear"
+ },
+ "epochs": 3,
+ "learning_rate": 0.0002,
+ "warmup_steps": 5,
+ "effective_batch": 4,
+ "max_len": 1536,
+ "train_examples": 62,
+ "val_examples": 5,
+ "trainable_params": 25165824,
+ "total_params": 2034306048,
+ "train_minutes": 4.6,
+ "peak_gpu_gb": 3.6,
+ "final_train_loss": 1.4505,
+ "val_loss_per_epoch": [
+  1.671,
+  1.5983,
+  1.6328
+ ],
+ "system_role_supported": true,
+ "transformers_version": "5.22.1",
+ "gpu": "Tesla T4"
+}

@@ -1,0 +1,6 @@
+config,retrieval_s,generation_s,prompt_tokens,words
+base,0.0,4.24,198.9,50.45
+rag,0.02,4.16,360.1,44.95
+ft,0.0,5.9,198.65,42.9
+hybrid-v1,0.02,6.26,360.25,44.9
+hybrid-v2,0.02,5.53,358.05,38.75

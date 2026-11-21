@@ -1,0 +1,110 @@
+[
+ {
+  "student": "What does the feed-forward layer do in a transformer?",
+  "reply": "Imagine a transformer with attention, which has already combined information from relevant tokens. What does it need to do next to turn that information into a prediction?",
+  "mode": "hybrid",
+  "in_scope": true,
+  "sources": [
+   {
+    "week": 4,
+    "pages": [
+     18
+    ],
+    "score": 0.52
+   },
+   {
+    "week": 4,
+    "pages": [
+     21
+    ],
+    "score": 0.49
+   }
+  ],
+  "retrieval_s": 0.217,
+  "generation_s": 4.65,
+  "prompt_tokens": 344,
+  "words": 27,
+  "questions": 1
+ },
+ {
+  "student": "I think it decides which tokens to pay attention to.",
+  "reply": "That's the job of the attention layer. The feed-forward layer comes after attention. It takes the final hidden-state vector and turns it into a prediction. What does it need to do to a single number to turn it into a probability for each vocabulary token?",
+  "mode": "hybrid",
+  "in_scope": true,
+  "sources": [
+   {
+    "week": 4,
+    "pages": [
+     18
+    ],
+    "score": 0.57
+   },
+   {
+    "week": 4,
+    "pages": [
+     39
+    ],
+    "score": 0.56
+   }
+  ],
+  "retrieval_s": 0.058,
+  "generation_s": 6.16,
+  "prompt_tokens": 383,
+  "words": 45,
+  "questions": 1
+ },
+ {
+  "student": "I don't know.",
+  "reply": "That's okay. Let's break it down. A prediction is a list of numbers, one for each possible answer. The model already has a single number from the attention layer. What does it need to do to turn that into a list of numbers?",
+  "mode": "hybrid",
+  "in_scope": true,
+  "sources": [
+   {
+    "week": 4,
+    "pages": [
+     18
+    ],
+    "score": 0.51
+   },
+   {
+    "week": 4,
+    "pages": [
+     21
+    ],
+    "score": 0.48
+   }
+  ],
+  "retrieval_s": 0.02,
+  "generation_s": 5.48,
+  "prompt_tokens": 462,
+  "words": 43,
+  "questions": 1
+ },
+ {
+  "student": "So attention mixes information between tokens, and the feed-forward layer processes each token's vector on its own?",
+  "reply": "Exactly. Attention combines information from relevant tokens, and the feed-forward layer transforms each token's vector into a prediction. Which layer would you expect to be most computationally expensive, and why?",
+  "mode": "hybrid",
+  "in_scope": true,
+  "sources": [
+   {
+    "week": 4,
+    "pages": [
+     16
+    ],
+    "score": 0.67
+   },
+   {
+    "week": 4,
+    "pages": [
+     18
+    ],
+    "score": 0.66
+   }
+  ],
+  "retrieval_s": 0.041,
+  "generation_s": 5.42,
+  "prompt_tokens": 549,
+  "words": 30,
+  "questions": 1
+ }
+]
