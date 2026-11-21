@@ -13,6 +13,6 @@ Copy these files from `MyDrive/CP5403_A2/` after running the notebooks:
 
 ## Scoring method
 Responses were shuffled and anonymised (`blind_scoring.csv`, key in `scoring_key.csv`).
-Scores (0–2 on behaviour, guidance, accuracy) were **proposed by an AI assistant and spot-checked by the author** (___ of 101 items checked, ___ changed).
+Scores (0–2 on behaviour, guidance, accuracy) were **proposed by an AI assistant and spot-checked by the author** (24 of 101 items checked, 0 changed).
 The assistant was not fully blind: some configuration labels had been seen earlier.
 Automatic keyword leak check vs human scores: 73% agreement (n = 102).
